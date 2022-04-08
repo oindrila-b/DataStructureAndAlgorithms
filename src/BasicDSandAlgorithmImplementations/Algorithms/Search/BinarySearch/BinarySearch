@@ -1,0 +1,37 @@
+Implement Binary Search to find the position of a target number.
+
+example :
+====================
+
+given a  sorted array :
+
+======================
+INPUT
+======================
+
+ ----------------------------------
+|   2   |   5   |   6   |   8   |   10   |   13   |   25   |   75   |
+ ----------------------------------
+
+
+
+                   |
+                  V
+
+==========================
+|                                                               |
+|         B I N A R Y      S E A R C H     |
+|            Find the target 10               |
+|                                                               |
+==========================
+
+
+                   |
+                  V
+
+
+======================
+OUTPUT
+======================
+
+Ans :  Position of target is 4
