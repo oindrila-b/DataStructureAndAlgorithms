@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Strings.Shuffle_String;
 
 public class ShuffleString {
     public String restoreString(String s, int[] indices) {

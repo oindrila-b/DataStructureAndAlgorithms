@@ -1,4 +1,4 @@
-package BasicDSandAlgorithmImplementations.Algorithms.Search.BinarySearch;
+package main.java.BasicDSandAlgorithmImplementations.Algorithms.Search.BinarySearch;
 
 public class BinarySearch {
 

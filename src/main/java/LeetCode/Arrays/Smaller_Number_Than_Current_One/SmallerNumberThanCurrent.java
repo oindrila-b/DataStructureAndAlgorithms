@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Smaller_Number_Than_Current_One;
 
 public class SmallerNumberThanCurrent {
     public int[] smallerNumbersThanCurrent(int[] nums) {

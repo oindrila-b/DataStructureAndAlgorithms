@@ -1,3 +1,5 @@
+package main.java.LeetCode.Strings.Longest_Substring;
+
 public class LongestSubstring {
 
 

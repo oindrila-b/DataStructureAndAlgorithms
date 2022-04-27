@@ -1,3 +1,5 @@
+package main.java.LeetCode.Arrays.Find_Average;
+
 import java.util.Arrays;
 
 public class FindAverage {

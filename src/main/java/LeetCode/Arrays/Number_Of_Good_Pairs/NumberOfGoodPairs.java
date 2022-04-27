@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Number_Of_Good_Pairs;
 
 public class NumberOfGoodPairs  {
     public int numIdenticalPairs(int[] nums) {

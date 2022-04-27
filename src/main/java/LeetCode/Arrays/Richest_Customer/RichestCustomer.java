@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Richest_Customer;
 
 public class RichestCustomer {
     public int maximumWealth(int[][] accounts) {

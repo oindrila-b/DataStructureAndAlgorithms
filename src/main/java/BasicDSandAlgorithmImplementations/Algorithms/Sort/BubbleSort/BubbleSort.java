@@ -1,4 +1,4 @@
-package BasicDSandAlgorithmImplementations.Algorithms.Sort.BubbleSort;
+package main.java.BasicDSandAlgorithmImplementations.Algorithms.Sort.BubbleSort;
 
 public class BubbleSort {
 

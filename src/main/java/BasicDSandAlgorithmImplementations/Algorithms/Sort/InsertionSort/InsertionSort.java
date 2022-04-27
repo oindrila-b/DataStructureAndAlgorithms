@@ -1,4 +1,4 @@
-package BasicDSandAlgorithmImplementations.Algorithms.Sort.InsertionSort;
+package main.java.BasicDSandAlgorithmImplementations.Algorithms.Sort.InsertionSort;
 
 public class InsertionSort {
     public static void insertionSort(int[] array) {

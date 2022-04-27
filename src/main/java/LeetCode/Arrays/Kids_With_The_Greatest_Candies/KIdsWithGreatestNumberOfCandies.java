@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Kids_With_The_Greatest_Candies;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package BasicDSandAlgorithmImplementations.Algorithms.Search.LinearSearch;
+package main.java.BasicDSandAlgorithmImplementations.Algorithms.Search.LinearSearch;
 
 public class LinearSearch {
 

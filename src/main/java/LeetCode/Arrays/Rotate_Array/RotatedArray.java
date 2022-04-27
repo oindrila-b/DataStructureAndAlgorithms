@@ -1,43 +1,43 @@
 package main.java.LeetCode.Arrays.Rotate_Array;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class RotatedArray {
-    public static void rotate(int[] nums, int k) {
-      for (int i =0 ; i < k; i ++){
-
-      }
-
-
-
-    }
-
-    private static void rotateKTimes(int[] nums) {
-        int startPointer = 0;
-        int onHoldValue = -1;
-            while (startPointer <= nums.length-1){
-                if (startPointer != nums.length-1){
-                    onHoldValue = nums[startPointer +1];
-                }
-            }
-
-
-
-    }
-
-    public static void main(String[] args) {
-        int[] array = {1,2,3,4,5,6,7};
-        int k = 0;
-        rotate(array,k);
-
-        int[] array2 = {1,2,3};
-        int k2 = 3;
-        rotate(array2,k2);
-
-        for (int i =0; i < array2.length; i++){
-            System.out.println(array2[i]);
+    public  void rotate(int[] nums, int k) {
+        while (k>0){
+            rotateKTimes(nums);
+            k--;
         }
+
     }
 
-}
+    private  void rotateKTimes(int[] nums) {
+        int endIndex = nums.length -1;
+        int onHoldValue = nums[endIndex];
+        System.out.println("End Index : " + endIndex);
+        int tempValue = endIndex -1;
+        System.out.println("Temp Value : " + tempValue);
+
+        int[] newArray = nums.clone();
+        System.out.println(Arrays.toString(newArray));
+
+        while (endIndex > 0){
+            nums[endIndex] = newArray[tempValue];
+            System.out.println(newArray[tempValue]);
+            System.out.println("Number in End Index : " + endIndex + "  :  " + nums[endIndex]);
+            endIndex --;
+            tempValue--;
+
+        }
+        System.out.println(Arrays.toString(nums));
+        nums[0] = onHoldValue;
+        System.out.println(Arrays.toString(nums));
+
+
+        }
+
+
+
+    }
+
+

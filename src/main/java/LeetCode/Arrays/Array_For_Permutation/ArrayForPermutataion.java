@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Array_For_Permutation;
 
 public class ArrayForPermutataion {
 

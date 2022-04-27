@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Running_Sum_Of_1D_Array;
 
 public class RunningSum {
     public int[] runningSum(int[] nums) {

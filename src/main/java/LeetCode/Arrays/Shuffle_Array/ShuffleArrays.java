@@ -1,4 +1,4 @@
-package LeetCode.Arrays;
+package main.java.LeetCode.Arrays.Shuffle_Array;
 
 public class ShuffleArrays {
     public int[] shuffle(int[] nums, int n) {

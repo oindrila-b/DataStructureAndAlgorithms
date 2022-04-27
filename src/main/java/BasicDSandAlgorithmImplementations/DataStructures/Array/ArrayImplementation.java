@@ -1,4 +1,4 @@
-package BasicDSandAlgorithmImplementations.DataStructures.Array;
+package main.java.BasicDSandAlgorithmImplementations.DataStructures.Array;
 
 public class ArrayImplementation {
     public static void main(String[] args) {
