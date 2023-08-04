@@ -7,6 +7,9 @@ public class Main {
 
         System.out.println( pascalsTriangle.generate(5));
 
+        PascalsTriangleII pascalsTriangleII = new PascalsTriangleII();
+        System.out.println(pascalsTriangleII.generate(6));
+
 
     }
 
