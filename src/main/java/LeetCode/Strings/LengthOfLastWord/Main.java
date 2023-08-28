@@ -1,4 +1,4 @@
-package main.java.LeetCode.LengthOfLastWord;
+package main.java.LeetCode.Strings.LengthOfLastWord;
 
 public class Main {
     public static void main(String[] args) {

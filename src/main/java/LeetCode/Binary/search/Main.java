@@ -1,4 +1,6 @@
-package main.java.LeetCode.Binary;
+package main.java.LeetCode.Binary.search;
+
+import main.java.LeetCode.Binary.search.BinarySearch;
 
 public class Main {
     public static void main(String[] args) {

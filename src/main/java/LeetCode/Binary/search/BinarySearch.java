@@ -1,4 +1,4 @@
-package main.java.LeetCode.Binary;
+package main.java.LeetCode.Binary.search;
 
 public class BinarySearch {
     public int search(int[] nums, int target) {

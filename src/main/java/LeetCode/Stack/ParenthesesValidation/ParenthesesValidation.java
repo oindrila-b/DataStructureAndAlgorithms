@@ -1,7 +1,5 @@
-package main.java.LeetCode.Strings.ParenthesesValidation;
+package main.java.LeetCode.Stack.ParenthesesValidation;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 public class ParenthesesValidation {
