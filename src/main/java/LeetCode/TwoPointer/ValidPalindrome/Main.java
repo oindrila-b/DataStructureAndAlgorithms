@@ -1,4 +1,4 @@
-package main.java.LeetCode.Strings.ValidPalindrome;
+package main.java.LeetCode.TwoPointer.ValidPalindrome;
 
 public class Main {
     public static void main(String[] args) {
