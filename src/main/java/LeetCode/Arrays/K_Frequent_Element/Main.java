@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//        KFrequentElement kFrequentElement = new KFrequentElement();
-//        System.out.println(Arrays.toString(kFrequentElement.topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2)));
-//    }
-        System.out.println("Hello");
+        KFrequentElement kFrequentElement = new KFrequentElement();
+        int[] arr = new int[]{1, 1, 1, 2, 2, 3};
+        System.out.println(Arrays.toString(kFrequentElement.topKFrequent(arr, 2)));
+
+//        System.out.println("Hello");
     }
 }
