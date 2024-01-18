@@ -1,25 +1,29 @@
 package main.java.LeetCode.Arrays.ProductOfArrayExceptSelf;
 
-import java.util.Arrays;
-
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
-        int answer[] = new int[nums.length];
+        int[] answer = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             answer[i]= multiply(nums, nums.length -1, nums[i]);
-            System.out.println("Number " + nums[i] + " resultant of multiplication " +  answer[i]);
+            System.out.println(answer[i]);
         }
         return answer;
     }
 //USE RECURSION
     private int multiply(int[] arr, int n, int ignoreInteger) {
-        int result = 0;
-     if(n==0 && arr[n]!= ignoreInteger) result =  arr[n];
-     else if (arr[n] == ignoreInteger) result =  1;
-     else {
-         result = (arr[n] * multiply(arr, n - 1, ignoreInteger));
-         System.out.println(result);
-     }
-        return result;
+        int i = 0;
+        int product = 1;
+        while(i <= n){
+            if (arr[i] == ignoreInteger) {
+                i++;
+            }else if(arr[i] == 0){
+                product *= 0;
+            }
+            else {
+                product*= arr[i];
+                i++;
+            }
+        }
+        return product;
     }
 }

@@ -1,0 +1,13 @@
+package main.java.LeetCode.Arrays.MaxNumberOfBalloons;
+
+public class Main {
+    public static void main(String[] args) {
+        MaxNumberOfBalloons maxNumberOfBalloons = new MaxNumberOfBalloons();
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("nlaebolko"));
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("loonbalxballpoon"));
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("leetcode"));
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("balon"));
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("balllllllllllloooooooooon"));
+        System.out.println(maxNumberOfBalloons.maxNumberOfBalloons("mbetypbpefxvviadqaodrbjeoacfomepmzymiudltgnvnpbowwmjgpzzhtiismearuwocsgbiimiqqzaozgeizikrlxmupfzjzmlfttqqbpfblqfkecsdfbsceqjhubfxksivrfwvukapxmuciybfhzlmpeamdxziptxregymqtmgcsujmugissgnlbhxbcxxeoumcqyulvahuianbaaxgzrtmshjguqdaxvxndzoqvwmcjfhpevavnrciqbymnlylbrfkkiceienoarfrzzxtuaqapaeqeqolozadmtgjyhfqzpuaskjuawxqkdqyjqcmbxtvshzrquvegcuyuckznspmrxvqdassidcmrajedsnuuumfwqzvasljlyvfefktiqgvzvdzojtjegsyhbepdkuwvgrfscezvswywmdavpxlekbrlkfnbyvlobazmvgulxrfdranuhomkrlpbfeagfxxxuhjuqhbkhznixquxrxngwimdxdhqbdaouitsvcdmbwxbbaomkgxsqwnexbjjyhtxvkjfqkrrxjghvzqsattubphryqxxdyjkihfnzvjhohnhdlfwoqiwtmwzfgcyhyqtcketvgnbchcxvnhcsoosirfqgdgcsitegzlxdfijzmxnvhrulmgvoqfpzesootscnxenokmmozmoxpaverydbsnimwacjqhrtxkqtvghjyushoctxphxzztukgmnoeycqaeukymvwxcsyvvctflqjhtcvjtxncuvhkptkjnzaetwbzkwnseovewuhpkaxiphdicgacszzdturzgjkzwgkmzzavykancvvzaafgzjhcyicorrblmhsnnkhfkujttbkuuedhwguuaapojmnjdfytdhrepjwcddzsoeutlbbljlikghxefgbqenwamanikmynjcupqpdjnhldaixwygcvsgdkzszmsptqqnroflgozblygtiyaxudwmooiviqcosjfksnevultrf"));
+    }
+}
