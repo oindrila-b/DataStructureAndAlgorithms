@@ -1,5 +1,7 @@
 package main.java.LeetCode.PriorityQueue.KthLargestElementInStream;
 
+import main.java.LeetCode.PriorityQueue.LastStoneWeight.LastStoneWeight;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -27,10 +29,13 @@ public class KthLargestElementInStream {
  class Main {
     public static void main(String[] args) {
         KthLargestElementInStream kthLargestElementInStream = new KthLargestElementInStream(3, new int[]{4, 5, 8, 2});
-        System.out.println(kthLargestElementInStream.add(3));
-        System.out.println(kthLargestElementInStream.add(5));
-        System.out.println(kthLargestElementInStream.add(10));
-        System.out.println(kthLargestElementInStream.add(9));
-        System.out.println(kthLargestElementInStream.add(4));
+//        System.out.println(kthLargestElementInStream.add(3));
+//        System.out.println(kthLargestElementInStream.add(5));
+//        System.out.println(kthLargestElementInStream.add(10));
+//        System.out.println(kthLargestElementInStream.add(9));
+//        System.out.println(kthLargestElementInStream.add(4));
+
+        LastStoneWeight w  = new LastStoneWeight();
+        w.lastStoneWeight(new int[]{2,7,4,1,8,1});
     }
 }
