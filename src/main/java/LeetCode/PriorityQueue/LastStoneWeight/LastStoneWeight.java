@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 public class LastStoneWeight {
 
     private PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    // uses priority queue
     public int lastStoneWeight(int[] stones) {
         for (int stone : stones) {
             maxHeap.offer(stone);
