@@ -4,6 +4,6 @@ import main.java.LeetCode.LinkedList.ListNode;
 
 public class RemoveZeroSum {
     public ListNode removeZeroSumSublists(ListNode head) {
-        return new ListNode();
+        return new ListNode(1);
     }
 }
