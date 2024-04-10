@@ -11,6 +11,7 @@ public class Concatenation2 {
         for(int i = 0; i < 2; i++) {
             for (int j :nums) {
                 ans[k++] = j;
+                // answers
             }
         }
         return ans;
