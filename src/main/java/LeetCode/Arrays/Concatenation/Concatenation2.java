@@ -11,6 +11,7 @@ public class Concatenation2 {
         int k = 0;
         for(int i = 0; i < 2; i++) {
             for (int j :nums) {
+                System.out.println(ans[k]);
                 ans[k++] = j;
                 // answers
             }
