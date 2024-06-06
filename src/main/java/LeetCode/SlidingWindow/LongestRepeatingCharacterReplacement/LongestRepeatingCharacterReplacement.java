@@ -4,6 +4,6 @@ public class LongestRepeatingCharacterReplacement {
     public int characterReplacement(String s, int k) {
     char[] stringArray = s.toCharArray();
         System.out.println(stringArray);
-        return 1;
+        return 12;
     }
 }
